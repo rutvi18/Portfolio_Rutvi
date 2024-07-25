@@ -30,9 +30,9 @@
 		}
 	}
 
-/* Wrapper */
+/* wrapper1 */
 
-	.wrapper {
+	.wrapper1 {
 		> .inner {
 			opacity: 1 !important;
 			@include vendor('transform', 'none !important');

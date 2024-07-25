@@ -6,6 +6,9 @@
 
 /* Spotlights */
 
+
+
+
 	.spotlights > section > .image:before {
 		opacity: 0 !important;
 	}
@@ -18,9 +21,9 @@
 		opacity: 1 !important;
 	}
 
-/* Wrapper */
+/* wrapper1 */
 
-	.wrapper > .inner {
+	.wrapper11> .inner {
 		opacity: 1 !important;
 		-moz-transform: none !important;
 		-webkit-transform: none !important;

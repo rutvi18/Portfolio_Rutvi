@@ -2525,7 +2525,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #edebf0;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2535,27 +2535,27 @@ input, select, textarea {
 				font-size: 1.25em;
 			}
 
-				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+				.wrapper1.style1 .icon.major:before {
+					color: #f0ecf7;
 				}
 
-				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+				.wrapper1.style1-alt .icon.major:before {
+					color: #ffffff;
 				}
 
-				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+				.wrapper1.style2 .icon.major:before {
+					color: #efeffa;
 				}
 
-				.wrapper.style2-alt .icon.major:before {
+				.wrapper1.style2-alt .icon.major:before {
 					color: #3e4094;
 				}
 
-				.wrapper.style3 .icon.major:before {
+				.wrapper1.style3 .icon.major:before {
 					color: #b74e91;
 				}
 
-				.wrapper.style3-alt .icon.major:before {
+				.wrapper1.style3-alt .icon.major:before {
 					color: #953d75;
 				}
 
@@ -3133,7 +3133,7 @@ input, select, textarea {
 
 /* Table */
 
-	.table-wrapper {
+	.table-wrapper1 {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
 	}
@@ -3199,13 +3199,13 @@ input, select, textarea {
 				border-top: 0;
 			}
 
-/* Wrapper */
+/* wrapper1 */
 
-	.wrapper {
+	.wrapper1 {
 		position: relative;
 	}
 
-		.wrapper > .inner {
+		.wrapper1 > .inner {
 			padding: 5em 5em 3em 5em ;
 			max-width: 100%;
 			width: 75em;
@@ -3213,7 +3213,7 @@ input, select, textarea {
 
 			@media screen and (max-width: 1680px) {
 
-				.wrapper > .inner {
+				.wrapper1 > .inner {
 					padding: 4em 4em 2em 4em ;
 				}
 
@@ -3221,7 +3221,7 @@ input, select, textarea {
 
 			@media screen and (max-width: 1280px) {
 
-				.wrapper > .inner {
+				.wrapper1 > .inner {
 					width: 100%;
 				}
 
@@ -3229,41 +3229,41 @@ input, select, textarea {
 
 			@media screen and (max-width: 736px) {
 
-				.wrapper > .inner {
+				.wrapper1 > .inner {
 					padding: 3em 2em 1em 2em ;
 				}
 
 			}
 
-		.wrapper.alt {
+		.wrapper1.alt {
 			background-color: #261c3e;
 		}
 
-		.wrapper.style1 {
+		.wrapper1.style1 {
 			background-color: #5e42a6;
 		}
 
-		.wrapper.style1-alt {
+		.wrapper1.style1-alt {
 			background-color: #493382;
 		}
 
-		.wrapper.style2 {
+		.wrapper1.style2 {
 			background-color: #5052b5;
 		}
 
-		.wrapper.style2-alt {
+		.wrapper1.style2-alt {
 			background-color: #3e4094;
 		}
 
-		.wrapper.style3 {
+		.wrapper1.style3 {
 			background-color: #b74e91;
 		}
 
-		.wrapper.style3-alt {
+		.wrapper1.style3-alt {
 			background-color: #953d75;
 		}
 
-		.wrapper.fullscreen {
+		.wrapper1.fullscreen {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3279,17 +3279,17 @@ input, select, textarea {
 			min-height: 100vh;
 		}
 
-			body.is-ie .wrapper.fullscreen {
+			body.is-ie .wrapper1.fullscreen {
 				height: 100vh;
 			}
 
 			@media screen and (max-width: 1280px) {
 
-				.wrapper.fullscreen {
+				.wrapper1.fullscreen {
 					min-height: calc(100vh - 2.5em);
 				}
 
-					body.is-ie .wrapper.fullscreen {
+					body.is-ie .wrapper1.fullscreen {
 						height: calc(100vh - 2.5em);
 					}
 
@@ -3297,18 +3297,18 @@ input, select, textarea {
 
 			@media screen and (max-width: 736px) {
 
-				.wrapper.fullscreen {
+				.wrapper1.fullscreen {
 					padding: 2em 0;
 					min-height: 0;
 				}
 
-					body.is-ie .wrapper.fullscreen {
+					body.is-ie .wrapper1.fullscreen {
 						height: auto;
 					}
 
 			}
 
-		.wrapper.fade-up > .inner {
+		.wrapper1.fade-up > .inner {
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
@@ -3320,8 +3320,8 @@ input, select, textarea {
 			opacity: 1.0;
 		}
 
-		.wrapper.fade-up.inactive > .inner,
-		body.is-preload .wrapper.fade-up > .inner {
+		.wrapper1.fade-up.inactive > .inner,
+		body.is-preload .wrapper1.fade-up > .inner {
 			opacity: 0;
 			-moz-transform: translateY(1em);
 			-webkit-transform: translateY(1em);
@@ -3329,7 +3329,7 @@ input, select, textarea {
 			transform: translateY(1em);
 		}
 
-		.wrapper.fade-down > .inner {
+		.wrapper1.fade-down > .inner {
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
@@ -3341,8 +3341,8 @@ input, select, textarea {
 			opacity: 1.0;
 		}
 
-		.wrapper.fade-down.inactive > .inner,
-		body.is-preload .wrapper.fade-down > .inner {
+		.wrapper1.fade-down.inactive > .inner,
+		body.is-preload .wrapper1.fade-down > .inner {
 			opacity: 0;
 			-moz-transform: translateY(-1em);
 			-webkit-transform: translateY(-1em);
@@ -3350,7 +3350,7 @@ input, select, textarea {
 			transform: translateY(-1em);
 		}
 
-		.wrapper.fade > .inner {
+		.wrapper1.fade > .inner {
 			-moz-transition: opacity 1s ease;
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
@@ -3358,8 +3358,8 @@ input, select, textarea {
 			opacity: 1.0;
 		}
 
-		.wrapper.fade.inactive > .inner,
-		body.is-preload .wrapper.fade > .inner {
+		.wrapper1.fade.inactive > .inner,
+		body.is-preload .wrapper1.fade > .inner {
 			opacity: 0;
 		}
 
@@ -3462,15 +3462,15 @@ input, select, textarea {
 
 		}
 
-/* Wrapper (main) */
+/* wrapper1 (main) */
 
-	#sidebar + #wrapper {
+	#sidebar + #wrapper1 {
 		margin-left: 18em;
 	}
 
 		@media screen and (max-width: 1280px) {
 
-			#sidebar + #wrapper {
+			#sidebar + #wrapper1 {
 				margin-left: 0;
 				padding-top: 3.5em;
 			}
@@ -3479,25 +3479,25 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			#sidebar + #wrapper {
+			#sidebar + #wrapper1 {
 				padding-top: 0;
 			}
 
 		}
 
-	#header + #wrapper > .wrapper > .inner {
+	#header + #wrapper1 > .wrapper1 > .inner {
 		margin: 0 auto;
 	}
 
 /* Footer */
 
-	#sidebar + #wrapper + #footer {
+	#sidebar + #wrapper1 + #footer {
 		margin-left: 18em;
 	}
 
 		@media screen and (max-width: 1280px) {
 
-			#sidebar + #wrapper + #footer {
+			#sidebar + #wrapper1 + #footer {
 				margin-left: 0;
 			}
 
@@ -3516,7 +3516,7 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.15);
 	}
 
-	#header + #wrapper + #footer > .inner {
+	#header + #wrapper1 + #footer > .inner {
 		margin: 0 auto;
 	}
 
@@ -3907,3 +3907,5 @@ input, select, textarea {
 			}
 
 		}
+
+/* Cards */
