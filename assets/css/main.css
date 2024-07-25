@@ -175,7 +175,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: black;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -1835,7 +1835,7 @@ input, select, textarea {
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: black !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -1945,7 +1945,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: rgba(255, 255, 255, 0.55) !important;
+			border-color: black !important;
 		}
 
 			input[type="submit"]:hover:after,
@@ -1965,7 +1965,7 @@ input, select, textarea {
 			input[type="button"]:hover:active,
 			button:hover:active,
 			.button:hover:active {
-				border-color: #ffffff !important;
+				border-color: black !important;
 			}
 
 				input[type="submit"]:hover:active:after,
@@ -2675,6 +2675,7 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		border-color: black;
 	}
 
 		ul.actions li {
@@ -3203,12 +3204,14 @@ input, select, textarea {
 
 	.wrapper1 {
 		position: relative;
+		opacity: 90;
 	}
 
 		.wrapper1 > .inner {
 			padding: 5em 5em 3em 5em ;
 			max-width: 100%;
 			width: 75em;
+			color: black;
 		}
 
 			@media screen and (max-width: 1680px) {
